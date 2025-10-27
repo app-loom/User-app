@@ -1,12 +1,6 @@
 "use client";
 import React from "react";
-import {
-  Image,
-  StatusBar,
-  Text,
-  TouchableOpacity,
-  View,
-} from "react-native";
+import { Image, StatusBar, Text, TouchableOpacity, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 import Icon from "react-native-vector-icons/Ionicons";
 
@@ -30,7 +24,7 @@ export default function GetStart({ navigation }) {
 
         <Image
           source={{
-            uri: "https://images.unsplash.com/photo-1607746882042-944635dfe10e?auto=format&fit=crop&w=500&q=60",
+            src: "./assets/image/background.svg",
           }}
           className="w-80 h-80 rounded-full"
           resizeMode="cover"
